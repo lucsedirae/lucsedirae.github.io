@@ -1,0 +1,16 @@
+nav {
+    background-color: grey;
+}
+
+.jumbotron {
+    margin-top: 10%;
+}
+
+#headShot {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    background: grey;
+}
