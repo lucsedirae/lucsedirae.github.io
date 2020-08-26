@@ -6,6 +6,11 @@ nav {
     background-color: grey;
 }
 
+main {
+    margin-top: 80px;
+    background-color: whitesmoke;
+}
+
 footer {
     background: grey;
 }
@@ -14,6 +19,6 @@ footer {
 
    }
 
-@media (min-width: 769px) {
-
+@media (min-width: 769px), (max-width: 1880px)
+ 
 }
