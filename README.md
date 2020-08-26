@@ -4,7 +4,7 @@ This website is a student biography page. <br>
 It contains links to student Jon Deavers' portfolio.<br>
 It also contains a contact form with social media links.<br>
 <br>
-The site is responsive to screen sizes from across a broad range of devices.<br>
+The site is responsive to screen sizes across a broad range of devices.<br>
 The site was written with accessibility in mind. <br>
 HTML is semantic to enhance screen reader experience.<br>
 <br>
