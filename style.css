@@ -1,5 +1,6 @@
 body {
     background: url("assets/images/blurcircles.png");
+    background-size: cover;
 }
 
 nav {
