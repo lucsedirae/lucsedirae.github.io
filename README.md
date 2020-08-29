@@ -7,6 +7,7 @@ It also contains a contact form with social media links.<br>
 The site is responsive to screen sizes across a broad range of devices.<br>
 The site was written with accessibility in mind. <br>
 HTML is semantic to enhance screen reader experience.<br>
+HTML on all three pages has been validated with zero warnings or errors outstanding at validator.w3.org<br>
 <br>
 Markup was written with a mindfulness towards code economy.<br>
 Positioning was achieved using Bootstrap 4's grid, where possible, thereby reducing reliance on CSS styling.<br>
