@@ -12,6 +12,10 @@ header h1:hover{
     color: lightcoral;
 }
 
+.fab {
+    margin-left: 2rem;
+}
+
 .menu-item {
     list-style-type: none;
     font-size: 2rem;
