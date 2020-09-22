@@ -12,8 +12,18 @@ header h1:hover{
     color: lightcoral;
 }
 
+img {
+    border-radius: 2rem;
+}
+
 .fab {
     margin-left: 2rem;
+}
+
+.jumbotron {
+    position: absolute;
+    width: 90%;
+    margin-top: 15%;
 }
 
 .menu-item {
@@ -24,7 +34,7 @@ header h1:hover{
 }
 
 #about-jumbo {
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     background-color: khaki;
     color: black;
     border-radius: 4rem;
@@ -65,4 +75,8 @@ header h1:hover{
     color: black;
     border-radius: 4rem;
     visibility: hidden;
+}
+
+#text-column {
+    margin-left: 2rem;
 }
