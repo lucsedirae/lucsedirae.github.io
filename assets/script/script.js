@@ -1,15 +1,26 @@
 //Global variables
-var menuList = ["Portfolio", "Contact", "About"]
+var menuList = ["About", "Portfolio", "Contact"]
 
 
 //Script begin
 Init();
 
 function Init() {
+
+
     for (var i = 0; i < menuList.length; i++){
-        $("#menuList").append($("<li class='list-group-item menu-item'>"+ menuList[i] +"</li>"));
-        $(".menu-item").click(){
-            
-        }
+        $("#menu-list").append($("<li class='menu-item' id='navBtn"+i+"'>"+ menuList[i] +"</li>"));
+        };
+    listeners();
     }
-};
+
+
+
+
+
+function listeners() {
+    
+    
+    };    
+
+
