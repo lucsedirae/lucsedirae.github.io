@@ -9,7 +9,7 @@ header h1 {
 }
 
 header h1:hover{
-    color: lightcoral;
+    color: rgb(172, 143, 250);
 }
 
 img {
@@ -40,8 +40,7 @@ img {
 }
 
 #about-jumbo {
-    /* margin-top: 2rem; */
-    background-color: lavender;
+    background-color: khaki;
     color: black;
     border-radius: 4rem;
     visibility: hidden;
@@ -56,6 +55,10 @@ img {
     visibility: hidden;
 }
 
+#contact-me {
+    font-size: 2rem;
+}
+
 #headshot {
     border-radius: 10rem;
     margin-top: 2rem;
@@ -65,11 +68,11 @@ img {
 }
 
 #navBtn0:hover {
-    color: lavender;
+    color: khaki;
 }
 
 #navBtn1:hover {
-    color: khaki;
+    color: palevioletred;
 }
 
 #navBtn2:hover {
@@ -81,7 +84,7 @@ img {
 }
 
 #portfolio-jumbo {
-    background-color: khaki;
+    background-color: palevioletred;
     color: black;
     border-radius: 4rem;
     visibility: hidden;
