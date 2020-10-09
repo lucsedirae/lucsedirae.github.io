@@ -21,6 +21,12 @@ img {
     border-radius: 2rem;
 }
 
+.backboard {
+    background-color: whitesmoke;
+    border-radius: 4rem;
+    box-shadow: 3px 3px 3px 3px rgb(46, 45, 45);
+}
+
 .fab {
     margin-left: 2rem;
 }
@@ -44,17 +50,22 @@ img {
     text-align: center;
 }
 
+.words-icon {
+    color: black;
+}
+
+.words-icon:hover {
+    color: skyblue;
+}
+
+
 #about-jumbo {
     background-color: khaki;
     color: black;
     border-radius: 4rem;
     visibility: hidden;
-    padding: 2rem
-}
-
-#backboard {
-    background-color: whitesmoke;
-    border-radius: 4rem;
+    padding: 2rem;
+    box-shadow: 3px 3px 3px 3px rgb(46, 45, 45);
 }
 
 #contact-jumbo {
@@ -62,6 +73,7 @@ img {
     color: black;
     border-radius: 4rem;
     visibility: hidden;
+    box-shadow: 3px 3px 3px 3px rgb(46, 45, 45);
 }
 
 #contact-me {
@@ -73,6 +85,7 @@ img {
     margin-top: 20%;
     height: 12rem;
     width: 12rem;
+    box-shadow: 3px 3px 3px 3px rgb(46, 45, 45);
 }
 
 #portfolio-jumbo {
@@ -80,6 +93,7 @@ img {
     color: black;
     border-radius: 4rem;
     visibility: hidden;
+    box-shadow: 3px 3px 3px 3px rgb(46, 45, 45);
 }
 
 #text-column {
@@ -90,11 +104,16 @@ img {
     text-align: center;
 }
 
+#words-backboard {
+    padding: 1rem;
+}
+
 #words-jumbo {
     background-color: skyblue;
     color: black;
     border-radius: 4rem;
     visibility: hidden;
+    box-shadow: 3px 3px 3px 3px rgb(46, 45, 45);
 }
 
 @media only screen and (max-width: 768px) {
