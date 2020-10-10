@@ -69,6 +69,7 @@ img {
 }
 
 #contact-jumbo {
+  position: relative;
   background-color: palegreen;
   color: black;
   border-radius: 4rem;

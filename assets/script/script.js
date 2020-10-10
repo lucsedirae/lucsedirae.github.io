@@ -15,30 +15,66 @@ function Init() {
   listeners();
 }
 
+function aboutAnimation() {
+  anime({
+    targets: "#about-jumbo",
+    translateX: -1900,
+    duration: 2000,
+  })
+}
+
+function contactAnimation() {
+  anime({
+    targets: "#contact-jumbo",
+    translateY: 1600,
+    duration: 2000,
+  })
+}
+
+function portfolioAnimation() {
+  anime({
+    targets: "#portfolio-jumbo",
+    translateY: 1500,
+    duration: 2000,
+  })
+}
+
+function wordsAnimation() {
+  anime({
+    targets: "#words-jumbo",
+    translateX: -1900,
+    duration: 2000,
+  })
+}
+
 function listeners() {
   $("#navBtn0").click(function () {
-    $("#about-jumbo").hide().css("visibility", "visible").fadeIn(800);
+    $("#about-jumbo").hide().css({"visibility": "visible", "right": "-100rem"}).fadeIn(200);
+    aboutAnimation();
     $("#portfolio-jumbo").css("visibility", "hidden").fadeOut(800);
     $("#contact-jumbo").css("visibility", "hidden").fadeOut(800);
     $("#words-jumbo").css("visibility", "hidden").fadeOut(800);
   });
 
   $("#navBtn1").click(function () {
-    $("#portfolio-jumbo").hide().css("visibility", "visible").fadeIn(800);
+    $("#portfolio-jumbo").hide().css({"visibility": "visible", "top": "-100rem"}).fadeIn(200);
+    portfolioAnimation();
     $("#about-jumbo").css("visibility", "hidden").fadeOut(800);
     $("#contact-jumbo").css("visibility", "hidden").fadeOut(800);
     $("#words-jumbo").css("visibility", "hidden").fadeOut(800);
   });
 
   $("#navBtn2").click(function () {
-    $("#words-jumbo").hide().css("visibility", "visible").fadeIn(800);
+    $("#words-jumbo").hide().css({"visibility": "visible", "right": "-100rem"}).fadeIn(200);
+    wordsAnimation();
     $("#portfolio-jumbo").css("visibility", "hidden").fadeOut(800);
     $("#about-jumbo").css("visibility", "hidden").fadeOut(800);
     $("#contact-jumbo").css("visibility", "hidden").fadeOut(800);
   });
 
   $("#navBtn3").click(function () {
-    $("#contact-jumbo").hide().css("visibility", "visible").fadeIn(800);
+    $("#contact-jumbo").hide().css({"visibility":"visible", "top": "-100rem"}).fadeIn(200);
+    contactAnimation();
     $("#portfolio-jumbo").css("visibility", "hidden").fadeOut(800);
     $("#about-jumbo").css("visibility", "hidden").fadeOut(800);
     $("#words-jumbo").css("visibility", "hidden").fadeOut(800);
