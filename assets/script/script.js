@@ -51,4 +51,3 @@ function listeners() {
     $("#words-jumbo").fadeOut(500);
   });
 }
-

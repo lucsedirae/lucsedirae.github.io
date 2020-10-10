@@ -1,146 +1,161 @@
 body {
-    font-family: 'Anton', sans-serif;
-    font-weight: 400;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
 }
 
 header h1 {
-    margin-top: 10%;
-    cursor: pointer;
+  margin-top: 10%;
+  cursor: pointer;
 }
 
-header h1:hover{
-    color: rgb(172, 143, 250);
+header h1:hover {
+  color: rgb(172, 143, 250);
 }
 
 h4 {
-    color: black;
-    text-align: center;
+  color: black;
+  text-align: center;
 }
 
 img {
-    border-radius: 2rem;
+  border-radius: 2rem;
 }
 
 .backboard {
-    background-color: whitesmoke;
-    border-radius: 4rem;
-    box-shadow: 3px 3px 3px 3px rgb(46, 45, 45);
+  background-color: whitesmoke;
+  border-radius: 4rem;
+  box-shadow: 3px 3px 3px 3px rgb(46, 45, 45);
+  padding: 1rem;
 }
 
 .fab {
-    margin-left: 2rem;
+  margin-left: 2rem;
 }
 
 .jumbotron {
-    position: absolute;
-    width: 80%;
-    margin-top: 15%;
+  position: absolute;
+  width: 80%;
+  margin-top: 15%;
 }
 
 .menu-item {
-    list-style-type: none;
-    font-size: 2rem;
-    color: rgb(255, 255, 255);
-    cursor: pointer;
+  list-style-type: none;
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
 }
 
 .words-description {
-    margin-top: 2rem;
-    font-size: 1.5rem;
-    text-align: center;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 .words-icon {
-    color: black;
+  color: black;
 }
 
 .words-icon:hover {
-    color: skyblue;
+  color: skyblue;
 }
 
-
 #about-jumbo {
-    background-color: khaki;
-    color: black;
-    border-radius: 4rem;
-    visibility: hidden;
-    padding: 2rem;
-    box-shadow: 3px 3px 3px 3px rgb(46, 45, 45);
+  background-color: khaki;
+  color: black;
+  border-radius: 4rem;
+  visibility: hidden;
+  padding: 2rem;
+  box-shadow: 3px 3px 3px 3px rgb(46, 45, 45);
 }
 
 #contact-jumbo {
-    background-color: palegreen;
-    color: black;
-    border-radius: 4rem;
-    visibility: hidden;
-    box-shadow: 3px 3px 3px 3px rgb(46, 45, 45);
+  background-color: palegreen;
+  color: black;
+  border-radius: 4rem;
+  visibility: hidden;
+  box-shadow: 3px 3px 3px 3px rgb(46, 45, 45);
+}
+
+#contact-backboard {
+  padding: 3rem;
 }
 
 #contact-me {
-    font-size: 2rem;
+  font-size: 2rem;
+  margin-left: 1rem;
 }
 
 #headshot {
-    border-radius: 10rem;
-    margin-top: 20%;
-    height: 12rem;
-    width: 12rem;
-    box-shadow: 3px 3px 3px 3px rgb(46, 45, 45);
+  border-radius: 10rem;
+  margin-top: 20%;
+  height: 12rem;
+  width: 12rem;
+  box-shadow: 3px 3px 3px 3px rgb(46, 45, 45);
 }
 
 #portfolio-jumbo {
-    background-color: palevioletred;
-    color: black;
-    border-radius: 4rem;
-    visibility: hidden;
-    box-shadow: 3px 3px 3px 3px rgb(46, 45, 45);
+  background-color: palevioletred;
+  color: black;
+  border-radius: 4rem;
+  visibility: hidden;
+  box-shadow: 3px 3px 3px 3px rgb(46, 45, 45);
+}
+
+#social-array {
+  margin-top: 2rem;
+  margin-left: 4rem;
 }
 
 #text-column {
-    margin: 1rem;
+  margin: 1rem;
 }
 
 #tool-box-list {
-    text-align: center;
-}
-
-#words-backboard {
-    padding: 1rem;
+  text-align: center;
 }
 
 #words-jumbo {
-    background-color: skyblue;
-    color: black;
-    border-radius: 4rem;
-    visibility: hidden;
-    box-shadow: 3px 3px 3px 3px rgb(46, 45, 45);
+  background-color: skyblue;
+  color: black;
+  border-radius: 4rem;
+  visibility: hidden;
+  box-shadow: 3px 3px 3px 3px rgb(46, 45, 45);
 }
 
 @media only screen and (max-width: 768px) {
-    header h1 {
-        margin-top: 2rem;
-    }
+  header h1 {
+    margin-top: 2rem;
+  }
 
-    .jumbotron {
-        width: 90%;
-    }
+  .jumbotron {
+    width: 90%;
+  }
 
-    #contact-me {
-        text-align: center;
-    }
+  #contact-backboard {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 
-    #headshot {
-        margin-left: 25%;
-        margin-top: 1rem;
-    }
+  #contact-me {
+    text-align: center;
+  }
 
-    #text-column {
-        margin-top: 2rem;
-    }
+  #headshot {
+    margin-left: 25%;
+    margin-top: 1rem;
+  }
+
+  #social-array {
+    margin-left: 0;
+  }
+
+  #text-column {
+    margin-top: 2rem;
+  }
 }
 
-@media only screen and (min-width: 768px) and (max-width:900px) {
-    header h1 {
-        margin-top: 6rem;
-    }
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+  header h1 {
+    margin-top: 6rem;
+  }
 }
