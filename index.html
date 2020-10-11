@@ -59,40 +59,73 @@
             </div>
 
             <div class="jumbotron" id="portfolio-jumbo">
-                <div id="carousel-body" class="carousel slide" data-ride="carousel">
+                
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <!-- <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
+                    </ol>
                     <div class="carousel-inner">
-                        
-                        <div class="carousel-item active">
-                            <a href="https://lucsedirae.github.io/day-planner/"><img src="./assets/images/dayplanner-screenshot.jpg" class="d-block w-100" alt="Screenshot of a day planning app"></a>
-                            <span>A day planner that tracks time of day and allows for storage of appointments</span>
+                      <div class="carousel-item active">
+                        <div class="row backboard">
+                            <div class="card-deck">
+                                <div class="card">
+                                    <a href="https://lucsedirae.github.io/day-planner/"><img src="./assets/images/dayplanner-screenshot.jpg" class="card-img-bottom" alt="Screenshot of a dat planner app"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Day Planner App</h5>
+                                    <p class="card-text">This lightweight Day Planner allows you to store appointments locally and return to the app to retrieve your stored list. It utilizes moment.js to track which hour of the day it is currently and color code the appointment list accordingly. It also accesses the user's location and returns the local weather via openweathermap.org open API.</p>
+                                </div>
+                                </div>
+                                <div class="card">
+                                    <a href="https://lucsedirae.github.io/deep-cuts/"><img src="./assets/images/pitch-screenshot.jpg" class="card-img-bottom" alt="Screenshot of Pitch, a music app"></a>
+                                    <div class="card-body">
+                                    <h5 class="card-title">Pitch</h5>
+                                    <p class="card-text">This app was a group project. It allows music enthusiasts to research and track artists they haven't heard before but want explore their body of work. Pitch offers an array of features drawing from three API's: musicbrainz, bandsintown, and Google's YouTube.</p>
+                                </div>
+                                </div>
+                                <div class="card">
+                                    <a href="https://lucsedirae.github.io/coding-quiz/"><img src="./assets/images/jsquiz-screenshot.jpg" class="card-img-bottom" alt="Screenshot of a JavaScript quiz"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">JavaScript Quiz</h5>
+                                    <p class="card-text">This application asks the user a series of questions. Based on the user's answers, questions are marked correct or incorrect and points are awarded or subtracted from a running total. The user will be able to store their name and high scores locally and reference them upon future quizz sessions.</p>
+                                </div>
+                                </div>
+                            </div>
                         </div>
+                      </div>
 
-                        <div class="carousel-item">
-                        <a href="https://lucsedirae.github.io/coding-quiz/"><img src="./assets/images/jsquiz-screenshot.jpg" class="d-block w-100" alt="Screenshot of a JavaScript coding quiz"></a>
-                        <span>A JavaScript coding quiz that tracks high scores and saves them for future reference</span>
+                      <div class="carousel-item">
+                        <div class="row backboard">
+                            <div class="card-deck">
+                                <div class="card">
+                                    <a href="https://lucsedirae.github.io/day-planner/"><img src="./assets/images/pwordgen-screenshot.jpg" class="card-img-bottom" alt="Screenshot of a password generator app"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Day Planner App</h5>
+                                    <p class="card-text">This lightweight Day Planner allows you to store appointments locally and return to the app to retrieve your stored list. It utilizes moment.js to track which hour of the day it is currently and color code the appointment list accordingly. It also accesses the user's location and returns the local weather via openweathermap.org open API.</p>
+                                </div>
+                                </div>
+                                <div class="card">
+                                    <a href="https://lucsedirae.github.io/deep-cuts/"><img src="./assets/images/weather-screenshot.jpg" class="card-img-bottom" alt="Screenshot of a weather dashboard app"></a>
+                                    <div class="card-body">
+                                    <h5 class="card-title">Pitch</h5>
+                                    <p class="card-text">This app was a group project. It allows music enthusiasts to research and track artists they haven't heard before but want explore their body of work. Pitch offers an array of features drawing from three API's: musicbrainz, bandsintown, and Google's YouTube.</p>
+                                </div>
+                                </div>
+                            </div>
                         </div>
+                    </div>
 
-                        <div class="carousel-item">
-                        <a href="https://lucsedirae.github.io/password-generator/"><img src="./assets/images/pwordgen-screenshot.jpg" class="d-block w-100" alt="Screenshot of a password generator app"></a>
-                        <span>A simple random password generator that also features useful security tips</span>
-                        </div>
-
-                        <div class="carousel-item">
-                        <a href="https://lucsedirae.github.io/weather-dashboard/"><img src="./assets/images/weather-screenshot.jpg" class="d-block w-100" alt="Screenshot of a password generator app"></a>
-                        <span>A Grateful Dead themed weather tracking app that lets you store a list of cities for quick reference</span>
-                        </div>
-
-                        <div class="carousel-item">
-                        <a href="https://lucsedirae.github.io/deep-cuts/"><img src="./assets/images/pitch-screenshot.jpg" class="d-block w-100" alt="Screenshot of a password generator app"></a>
-                        <span>By music enthusiasts, for music enthusiasts. Pitch allows you to research artists, make notes, find tickets, and see video</span>
-                        </div>
-
-                        <a class="carousel-control-prev" href="#carousel-body" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        </a>
-                        <a class="carousel-control-next" href="#carousel-body" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        </a>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
                     </div>
                     </div>
             </div>

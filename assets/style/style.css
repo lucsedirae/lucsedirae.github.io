@@ -28,6 +28,48 @@ img {
   padding: 1rem;
 }
 
+.card {
+  border-radius: 2rem;
+  background-color: skyblue;
+  box-shadow: 3px 3px 3px 3px rgb(46, 45, 45);
+}
+
+.card-body {
+  background-color: whitesmoke;
+  border-radius: 2rem;
+  margin: 1rem;
+  box-shadow: 3px 3px 3px 3px rgb(46, 45, 45);
+}
+
+.card-img-bottom {
+  border-radius: 2rem;
+  margin: 1rem;
+  width: 18rem;
+  box-shadow: 3px 3px 3px 3px rgb(46, 45, 45);
+  transition: box-shadow 350ms ease-in-out;
+}
+
+.card-img-bottom:hover {
+  box-shadow: 0 5px 15px palevioletred, 0 6px 18px grey;
+}
+
+
+.card-title {
+  text-align: center;
+}
+
+.carousel-inner {
+  padding: 2rem;
+}
+
+.carousel-control-prev {
+  left: -6rem;
+}
+
+.carousel-control-next {
+  right: -6rem;
+}
+
 .fab {
   margin-left: 2rem;
 }

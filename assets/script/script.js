@@ -51,33 +51,33 @@ function listeners() {
   $("#navBtn0").click(function () {
     $("#about-jumbo").hide().css({"visibility": "visible", "right": "-100rem"}).fadeIn(200);
     aboutAnimation();
-    $("#portfolio-jumbo").css("visibility", "hidden").fadeOut(800);
-    $("#contact-jumbo").css("visibility", "hidden").fadeOut(800);
-    $("#words-jumbo").css("visibility", "hidden").fadeOut(800);
+    $("#portfolio-jumbo").css("visibility", "hidden");
+    $("#contact-jumbo").css("visibility", "hidden");
+    $("#words-jumbo").css("visibility", "hidden");
   });
 
   $("#navBtn1").click(function () {
     $("#portfolio-jumbo").hide().css({"visibility": "visible", "top": "-100rem"}).fadeIn(200);
     portfolioAnimation();
-    $("#about-jumbo").css("visibility", "hidden").fadeOut(800);
-    $("#contact-jumbo").css("visibility", "hidden").fadeOut(800);
-    $("#words-jumbo").css("visibility", "hidden").fadeOut(800);
+    $("#about-jumbo").css("visibility", "hidden");
+    $("#contact-jumbo").css("visibility", "hidden");
+    $("#words-jumbo").css("visibility", "hidden");
   });
 
   $("#navBtn2").click(function () {
     $("#words-jumbo").hide().css({"visibility": "visible", "right": "-100rem"}).fadeIn(200);
     wordsAnimation();
-    $("#portfolio-jumbo").css("visibility", "hidden").fadeOut(800);
-    $("#about-jumbo").css("visibility", "hidden").fadeOut(800);
-    $("#contact-jumbo").css("visibility", "hidden").fadeOut(800);
+    $("#portfolio-jumbo").css("visibility", "hidden");
+    $("#about-jumbo").css("visibility", "hidden");
+    $("#contact-jumbo").css("visibility", "hidden");
   });
 
   $("#navBtn3").click(function () {
     $("#contact-jumbo").hide().css({"visibility":"visible", "top": "-100rem"}).fadeIn(200);
     contactAnimation();
-    $("#portfolio-jumbo").css("visibility", "hidden").fadeOut(800);
-    $("#about-jumbo").css("visibility", "hidden").fadeOut(800);
-    $("#words-jumbo").css("visibility", "hidden").fadeOut(800);
+    $("#portfolio-jumbo").css("visibility", "hidden");
+    $("#about-jumbo").css("visibility", "hidden");
+    $("#words-jumbo").css("visibility", "hidden");
   });
 
   $("#my-name").click(function () {
