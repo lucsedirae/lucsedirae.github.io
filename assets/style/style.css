@@ -62,13 +62,21 @@ img {
   padding: 2rem;
 }
 
-.carousel-control-prev {
+.left-arrow {
+  color: black;
+}
+
+.right-arrow {
+  color: black;
+}
+
+/* .carousel-control-prev {
   left: -6rem;
 }
 
 .carousel-control-next {
   right: -6rem;
-}
+} */
 
 .fab {
   margin-left: 2rem;

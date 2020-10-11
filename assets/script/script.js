@@ -107,14 +107,18 @@ function populatePortfolio() {
       "<a href='https://lucsedirae.github.io/weather-dashboard/'><img src='./assets/images/weather-screenshot.jpg' class='card-img-bottom' alt='screenshot of a day planner app'></a>" +
       "<div class='card-body'><h5 class='card-title'>Touch of Grey Weather Dashboard</h5>" +
       "<p class='card-text'>A Grateful Dead themed weather dashboard. This app allows users to search for a city and display that city's current weather data as well as a 5-day forecast. The list of previously searched cities is persistent and will be saved locally to user's machine allowing for easy reference to prior searches on app load.</p></div></div>" +
+      "<div class='card'>" +
+      "<img src='./assets/images/underconstruction.jpg' class='card-img-bottom' alt='under construction placeholder image'>" +
+      "<div class='card-body'><h5 class='card-title'>New Project Underway</h5>" +
+      "<p class='card-text'>This project is under construction. Check back soon to see what Jon has been up to.</p></div></div>" +
+
       "</div></div></div></div></div>" +
-      //following closing div tag closes out carousel inner
-      "</div>" +
       "<a class='carousel-control-prev' href='#carouselExampleIndicators' role='button' data-slide='prev'>" +
-      "<span class='carousel-control-prev-icon' aria-hidden='true'></span><span class='sr-only'>Previous</span></a>" +
+      "<span class='fas fa-arrow-circle-left fa-3x left-arrow' aria-hidden='true'></span><span class='sr-only'>Previous</span></a>" +
       "<a class='carousel-control-next' href='#carouselExampleIndicators' role='button' data-slide='next'>" +
-      "<span class='carousel-control-next-icon' aria-hidden='true'></span><span class='sr-only'>Next</span></a>" +
-      "</div></div>"
+      "<span class='fas fa-arrow-circle-right fa-3x right-arrow' aria-hidden='true'></span><span class='sr-only'>Next</span></a>" +
+      //following closing div tag closes out carousel inner
+      "</div></div></div>"
   );
   $("#portfolio-jumbo")
     .hide()
