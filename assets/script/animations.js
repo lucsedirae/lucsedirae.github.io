@@ -1,3 +1,5 @@
+
+//handles color change animations on nav menu
 function colorChange() {
   anime
     .timeline({
@@ -83,4 +85,37 @@ function colorChange() {
       duration: 5000,
       color: "rgb(255, 255, 255)",
     });
+}
+
+//the following 4 functions handle jumbo entry animations
+function aboutAnimation() {
+  anime({
+    targets: "#about-jumbo",
+    translateX: -1900,
+    duration: 2000,
+  })
+}
+
+function contactAnimation() {
+  anime({
+    targets: "#contact-jumbo",
+    translateY: 1600,
+    duration: 2000,
+  })
+}
+
+function portfolioAnimation() {
+  anime({
+    targets: "#portfolio-jumbo",
+    translateY: 1500,
+    duration: 2000,
+  })
+}
+
+function wordsAnimation() {
+  anime({
+    targets: "#words-jumbo",
+    translateX: -1900,
+    duration: 2000,
+  })
 }
