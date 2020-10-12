@@ -1,3 +1,12 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 body {
   font-family: "Anton", sans-serif;
   font-weight: 400;
@@ -15,6 +24,7 @@ header h1:hover {
 h4 {
   color: black;
   text-align: center;
+  margin-top: 1rem;
 }
 
 img {
@@ -28,33 +38,27 @@ img {
   padding: 1rem;
 }
 
-.card {
+.portfolio-box {
+  background-color: white;
   border-radius: 2rem;
-  background-color: skyblue;
-  box-shadow: 3px 3px 3px 3px rgb(46, 45, 45);
+  opacity: 70%;
+  text-decoration: none;
 }
 
-.card-body {
-  background-color: whitesmoke;
-  border-radius: 2rem;
+.portfolio-item {
   margin: 1rem;
-  box-shadow: 3px 3px 3px 3px rgb(46, 45, 45);
-}
-
-.card-img-bottom {
+  height: 10%;
   border-radius: 2rem;
-  margin: 1rem;
-  width: 18rem;
-  box-shadow: 3px 3px 3px 3px rgb(46, 45, 45);
+  box-shadow: 1px 1px 1px 1px rgb(46, 45, 45);
   transition: box-shadow 350ms ease-in-out;
+  text-decoration: none;
+  color: black;
 }
 
-.card-img-bottom:hover {
+.portfolio-item:hover {
   box-shadow: 0 5px 15px palevioletred, 0 6px 18px grey;
-}
-
-.card-title {
-  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .carousel-inner {
@@ -84,6 +88,10 @@ img {
   font-size: 2rem;
   color: rgb(255, 255, 255);
   cursor: pointer;
+}
+
+.portfolio-row {
+  margin-top: 1rem;
 }
 
 .words-description {
@@ -133,6 +141,10 @@ img {
   height: 12rem;
   width: 12rem;
   box-shadow: 3px 3px 3px 3px rgb(46, 45, 45);
+}
+
+#portfolio-img {
+  width: 10rem;
 }
 
 #portfolio-jumbo {
@@ -204,11 +216,6 @@ img {
     text-align: center;
   }
 
-  #headshot {
-    margin-left: 25%;
-    margin-top: 1rem;
-  }
-
   #social-array {
     margin-left: 0;
   }
@@ -222,4 +229,30 @@ img {
   header h1 {
     margin-top: 6rem;
   }
+
+  .backboard {
+    padding: 1rem;
+  }
 }
+
+@media only screen and (min-width: 900px) and (max-width: 1490px) {
+  header h1 {
+    margin-top: 6rem;
+  }
+
+  .backboard {
+    padding: 1rem;
+  }
+}
+
+
+@media only screen and (min-width: 1490px) and (max-width: 1880px) {
+  header h1 {
+    margin-top: 6rem;
+  }
+
+  .backboard {
+    padding: 1rem;
+  }
+}
+
