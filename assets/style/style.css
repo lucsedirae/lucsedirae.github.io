@@ -39,7 +39,7 @@ img {
 }
 
 .portfolio-box {
-  background-color: white;
+  background-color: whitesmoke;
   border-radius: 2rem;
   opacity: 70%;
   text-decoration: none;
@@ -59,18 +59,6 @@ img {
   box-shadow: 0 5px 15px palevioletred, 0 6px 18px grey;
   cursor: pointer;
   text-decoration: none;
-}
-
-.carousel-inner {
-  padding: 2rem;
-}
-
-.left-arrow {
-  color: black;
-}
-
-.right-arrow {
-  color: black;
 }
 
 .fab {
@@ -138,6 +126,7 @@ img {
 #headshot {
   border-radius: 10rem;
   margin-top: 20%;
+  margin-left: 2rem;
   height: 12rem;
   width: 12rem;
   box-shadow: 3px 3px 3px 3px rgb(46, 45, 45);

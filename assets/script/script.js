@@ -1,6 +1,6 @@
 //Global variables
 var menuList = ["About", "Portfolio", "Words", "Contact"];
-var loopBegan = 0;
+// var loopBegan = 0;
 
 //Script begin
 $(document).ready(Init);
@@ -38,9 +38,9 @@ function populateAbout() {
 
   $("main").empty();
   $("main").append(
-    "<div class='jumbotron' id='about-jumbo'><div class='backboard'>" +
+    "<div class='jumbotron container-fluid' id='about-jumbo'><div class='row backboard'>" +
       "<div class='col-md-3'><img src='./assets/images/headshot.jpg' alt='picture of Jon Deavers' id='headshot'></div>" +
-      "<div class='col-md-8' id='text-column'><p id='about-text'>" +
+      "<div class='col-md-1'></div><div class='col-md-7' id='text-column'><p id='about-text'>" +
       "Jon is a student enrolled in the Full-Stack Web Development boot camp at Univeristy of Richmond. Originally from Orange, VA he has been a Henrico resident since 2011. Currently, Jon is a Realtor and helps Richmonders buy and sell homes. His goals include utilizing his development skills to solve problems for real estate professionals. He brings the customer service focused mindset of a sales expert with 18 years of experience to the field of web development." +
       "</p>" +
       "<hr><div class='row'><h4 class='col-sm-12'>Tool Box</h4></div>" +
