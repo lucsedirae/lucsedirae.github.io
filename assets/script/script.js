@@ -47,14 +47,14 @@ function populateAbout() {
       "<div class='row'><ul class='col-sm-12' id='tool-box-list'>" +
       "</ul></div></div></div></div>"
   );
-  toolIconList.forEach(function (item) {
-    $("#tool-box-list").append("<li class='" + item + "'></li>");
-  });
-  $("#about-jumbo")
-    .hide()
-    .css({ visibility: "visible", right: "-100rem" })
-    .fadeIn(200);
-  aboutAnimation();
+  toolIconList.forEach(
+    (item) => $("#tool-box-list").append("<li class='" + item + "'></li>"),
+    $("#about-jumbo")
+      .hide()
+      .css({ visibility: "visible", right: "-100rem" })
+      .fadeIn(200),
+    aboutAnimation()
+  );
 }
 
 function populateContact() {
@@ -78,26 +78,26 @@ function populateContact() {
 function populatePortfolio() {
   $("main").empty();
   $("main").append(
-    "<div class='jumbotron' id='portfolio-jumbo'><div class='container-fluid backboard' id='portfolio-backboard'>"+
-    "</div></div>"
-
+    "<div class='jumbotron' id='portfolio-jumbo'><div class='container-fluid backboard' id='portfolio-backboard'>" +
+      "</div></div>"
   );
 
   for (let i = 0; i < portfolioItem.length; i++) {
     $("#portfolio-backboard").append(
-      "<a href='"+
-      portfolioItem[i].link +
-      "'><div class='row portfolio-item' id='portfolio-item-"+
-      i +
-      "'><div class='col-md-12 portfolio-box'><h4>"+
-      portfolioItem[i].name +
-      "</h4><hr><p>"+
-      portfolioItem[i].description +
-      "</p></div></div></a>"
-  )
-    $("#portfolio-item-"+i).css("background-image", "url("+
-    portfolioItem[i].pic +
-    ")")
+      "<a href='" +
+        portfolioItem[i].link +
+        "'><div class='row portfolio-item' id='portfolio-item-" +
+        i +
+        "'><div class='col-md-12 portfolio-box'><h4>" +
+        portfolioItem[i].name +
+        "</h4><hr><p>" +
+        portfolioItem[i].description +
+        "</p></div></div></a>"
+    );
+    $("#portfolio-item-" + i).css(
+      "background-image",
+      "url(" + portfolioItem[i].pic + ")"
+    );
   }
 
   $("#portfolio-jumbo")
@@ -111,6 +111,8 @@ function populateWords() {
   $("main").empty();
   $("main").append(
     "<div class='jumbotron' id='words-jumbo'><div class='col-md-10'><div class='row'><div class='col-lg-12 backboard'>" +
+    "<div class='row'><div class='col-md-2'><a href='https://dev.to/lucsedirae/intro-to-chrome-dev-tools-part-1-8ab'><i class='fab fa-dev fa-5x words-icon' alt='Dev.to icon'></i></a></div>" +
+    "<div class='col-md-8'><span class='words-description'><strong>dev.to</strong> - Intro to Chrome Dev Tools - Part 1</span></div></div><hr>" +
       "<div class='row'><div class='col-md-2'><a href='https://dev.to/lucsedirae/overthinking-web-development-as-a-beginner-jp0'><i class='fab fa-dev fa-5x words-icon' alt='Dev.to icon'></i></a></div>" +
       "<div class='col-md-8'><span class='words-description'><strong>dev.to</strong> - Overthinking Web Development As A Beginner</span></div></div><hr>" +
       "<div class='row'><div class='col-md-2'><a href='https://dev.to/lucsedirae/keeping-a-portfolio-page-current-while-learning-1bcn'><i class='fab fa-dev fa-5x words-icon' alt='Dev.to icon'></i></a></div>" +
