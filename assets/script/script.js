@@ -111,8 +111,10 @@ function populateWords() {
   $("main").empty();
   $("main").append(
     "<div class='jumbotron' id='words-jumbo'><div class='col-md-10'><div class='row'><div class='col-lg-12 backboard'>" +
-    "<div class='row'><div class='col-md-2'><a href='https://dev.to/lucsedirae/intro-to-chrome-dev-tools-part-1-8ab'><i class='fab fa-dev fa-5x words-icon' alt='Dev.to icon'></i></a></div>" +
-    "<div class='col-md-8'><span class='words-description'><strong>dev.to</strong> - Intro to Chrome Dev Tools - Part 1</span></div></div><hr>" +
+      "<div class='row'><div class='col-md-2'><a href='https://dev.to/lucsedirae/experimenting-with-bootstrap-alternatives-3nkm'><i class='fab fa-dev fa-5x words-icon' alt='Dev.to icon'></i></a></div>" +
+      "<div class='col-md-8'><span class='words-description'><strong>dev.to</strong> - Experimenting with Bootstrap Alternatives</span></div></div><hr>" +
+      "<div class='row'><div class='col-md-2'><a href='https://dev.to/lucsedirae/intro-to-chrome-dev-tools-part-1-8ab'><i class='fab fa-dev fa-5x words-icon' alt='Dev.to icon'></i></a></div>" +
+      "<div class='col-md-8'><span class='words-description'><strong>dev.to</strong> - Intro to Chrome Dev Tools - Part 1</span></div></div><hr>" +
       "<div class='row'><div class='col-md-2'><a href='https://dev.to/lucsedirae/overthinking-web-development-as-a-beginner-jp0'><i class='fab fa-dev fa-5x words-icon' alt='Dev.to icon'></i></a></div>" +
       "<div class='col-md-8'><span class='words-description'><strong>dev.to</strong> - Overthinking Web Development As A Beginner</span></div></div><hr>" +
       "<div class='row'><div class='col-md-2'><a href='https://dev.to/lucsedirae/keeping-a-portfolio-page-current-while-learning-1bcn'><i class='fab fa-dev fa-5x words-icon' alt='Dev.to icon'></i></a></div>" +
