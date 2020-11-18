@@ -1,11 +1,11 @@
 var portfolioItem = [
     {
-      name: "Day Planner App",
-      pic: "./assets/images/dayplanner-screenshot.jpg",
-      link: "https://lucsedirae.github.io/day-planner/",
-      alt: "screenshot of a day planner app",
+      name: "Burger",
+      pic: "./assets/images/burger-screenshot.jpg",
+      link: "https://fathomless-temple-93521.herokuapp.com/",
+      alt: "screenshot of burger app",
       description:
-        "This lightweight Day Planner allows you to store appointments locally and return to the app to retrieve your stored list. It utilizes moment.js to track which hour of the day it is currently and color code the appointment list accordingly. It also accesses the user's location and returns the local weather via openweathermap.org open API.",
+        "This burger app demonstrates the use of a full stack web application. It is hosted by Heroku and features an MVC structure using MySQL via JawsDB on the server side to populate .handlebars HTML templates.",
     },
     {
       name: "Pitch",
@@ -14,6 +14,14 @@ var portfolioItem = [
       alt: "screenshot of music app Pitch",
       description:
         "This app was a group project. It allows music enthusiasts to research and track artists they haven't heard before but want explore their body of work. Pitch offers an array of features drawing from three API's: musicbrainz, bandsintown, and Google's YouTube.",
+    },
+    {
+      name: "Day Planner App",
+      pic: "./assets/images/dayplanner-screenshot.jpg",
+      link: "https://lucsedirae.github.io/day-planner/",
+      alt: "screenshot of a day planner app",
+      description:
+        "This lightweight Day Planner allows you to store appointments locally and return to the app to retrieve your stored list. It utilizes moment.js to track which hour of the day it is currently and color code the appointment list accordingly. It also accesses the user's location and returns the local weather via openweathermap.org open API.",
     },
     {
       name: "JavaScript Quiz",
