@@ -1,22 +1,32 @@
-//*dependencies
+//* Require dependencies
 const express = require("express");
-const path = require("path");
+const ejs = require("ejs");
 
-//*establish PORT
+//*Define environment
 const PORT = process.env.PORT || 8080;
 
-// *configure express app
+//* Require database interaction models
+const db = require("./models");
+
+//* Create the app express instance and configure middleware for authentication
 const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
+
+//* Initialize rendering engine ejs
 app.set("view engine", "ejs");
 
-//*import routing scripts
-//!API route commented out until needed
-// require("./routes/api-routes.js");
-require("./routes/html-routes.js");
+//* Require routes
+require("./routes/routes.js")(app);
 
-//*initialize server
-app.listen(PORT);
-console.log("Server listening on " + PORT);
+//* Sync database and log listener message
+db.sequelize.sync().then(() => {
+  app.listen(PORT, () => {
+    console.log(
+      "==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser. 🌎 <== ",
+      PORT,
+      PORT
+    );
+  });
+});

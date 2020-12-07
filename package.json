@@ -1,30 +1,35 @@
 {
-  "name": "lucsedirae.github.io",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "open_house_crm",
+  "version": "0.2.1",
+  "description": "Open source platform for real estate professionals",
+  "main": "server.js",
   "scripts": {
-    "devStart": "nodemon server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lucsedirae/lucsedirae.github.io.git"
+    "url": "git+https://github.com/lucsedirae/open-house-crm.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "real",
+    "estate",
+    "crm"
+  ],
+  "author": "LucSedirae (Jon Deavers)",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lucsedirae/lucsedirae.github.io/issues"
+    "url": "https://github.com/lucsedirae/open-house-crm/issues"
   },
-  "homepage": "https://github.com/lucsedirae/lucsedirae.github.io#readme",
+  "homepage": "https://github.com/lucsedirae/open-house-crm#readme",
   "dependencies": {
     "ejs": "^3.1.5",
     "express": "^4.17.1",
     "express-session": "^1.17.1",
     "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "prettier": "^1.13.7",
     "sequelize": "^6.3.5"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.6"
   }
 }
