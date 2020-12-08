@@ -17,6 +17,7 @@ footer {
 
 .home-image {
   height: 10rem;
+  margin-bottom: 1rem;
 }
 
 .info-panel {
@@ -28,6 +29,17 @@ footer {
   box-shadow: 2px 2px 4px black;
 }
 
+.info-panel-large {
+    width: 90vh;
+    margin-top: 14rem;
+    margin-bottom: 14rem;
+    background-color: rgb(128, 128, 128, 0.85);
+    text-align: center;
+    border-radius: 0.25rem;
+    box-shadow: 2px 2px 4px black;
+  }
+  
+
 .text-highlight {
   /* color: silver; */
   color: #d0f8ff;
@@ -37,6 +49,7 @@ footer {
 
 #navbar {
   background-color: transparent !important;
+  margin-left: 1rem;
 }
 
 #navbar-brand {
@@ -45,4 +58,9 @@ footer {
   font-weight: 600;
   text-shadow: 2px 2px 4px #000000;
   letter-spacing: 1px;
+}
+
+#stealie {
+    height: 1.5rem;
+    margin-bottom: 1rem;
 }

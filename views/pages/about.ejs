@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include("../partials/head"); %>
+  </head>
+
+  <body class="container-fluid">
+    <header>
+      <%- include('../partials/header'); %>
+    </header>
+
+    <main>
+      <!-- * Row 1 -->
+      <div class="row">
+        <!-- * Spacing column -->
+        <div class="col-md-3"></div>
+        <div class="col=md-6 info-panel-large">
+          <h2>About me</h2>
+          <hr />
+          <h5>Professional profile</h5>
+          <p>
+            Jon is currently studying in the Trilogy full-stack web development
+            boot camp at the University of Richmond. He lives in Richmond and
+            currently helps people buy and sell homes. With 19 years of sales
+            experience, Jon intends to bring his customer-service focused
+            mindset to the world of web development. Jon's biggest professional
+            goal is to leverage his experience as a Realtor and develop web
+            based software solutions for businesses and consumers in the real
+            estate industry.
+          </p>
+          <hr />
+          <h5>Personal profile</h5>
+          <p>
+            Jon grew up in the rural Piedmont region of Virginia in the shadow
+            of the Blue Ridge Mountains. He and his wife of 10 years now live in
+            Richmond and have fallen in love with the community. When Jon's not
+            coding he's either making music or listening to it.
+            <img src="img/stealie.png" alt="steal your face" id="stealie" />
+          </p>
+        </div>
+        <!-- * Spacing column -->
+        <div class="col-md-3"></div>
+      </div>
+    </main>
+
+    <footer>
+      <%- include('../partials/footer'); %>
+    </footer>
+
+    <%- include("../partials/index-body-cdn.ejs"); %>
+  </body>
+</html>

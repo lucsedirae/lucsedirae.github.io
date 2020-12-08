@@ -10,14 +10,22 @@
     </header>
 
     <main>
-        <h1>HELLO WORLD!</h1>
+      <!-- * Row 1 -->
+      <div class="row">
+        <!-- * Spacing column -->
+        <div class="col-md-3"></div>
+        <div class="col=md-6 info-panel-large">
+          <h2>Contact me</h2>
+        </div>
+        <!-- * Spacing column -->
+        <div class="col-md-3"></div>
+      </div>
     </main>
 
     <footer>
-        <%- include('../partials/footer'); %>
-      </footer>
-  
-      <%- include("../partials/index-body-cdn.ejs"); %>
-    </body>
-  </html>
-  
+      <%- include('../partials/footer'); %>
+    </footer>
+
+    <%- include("../partials/index-body-cdn.ejs"); %>
+  </body>
+</html>
