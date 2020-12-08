@@ -1,0 +1,48 @@
+body {
+  background-image: url("../img/pexels-rodolfo-clix-1036936.jpg");
+  background-size: cover;
+  color: whitesmoke;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  color: silver;
+}
+
+.btn {
+  margin-bottom: 1rem;
+}
+
+.home-image {
+  height: 10rem;
+}
+
+.info-panel {
+  margin-top: 14rem;
+  margin-bottom: 14rem;
+  background-color: rgb(128, 128, 128, 0.85);
+  text-align: center;
+  border-radius: 0.25rem;
+  box-shadow: 2px 2px 4px black;
+}
+
+.text-highlight {
+  /* color: silver; */
+  color: #d0f8ff;
+  text-shadow: 0 0 5px #a5f1ff, 0 0 10px #30dcfa, 0 0 20px #2cb2ca,
+    0 0 30px #3d4550, 0 0 40px #000000;
+}
+
+#navbar {
+  background-color: transparent !important;
+}
+
+#navbar-brand {
+  color: whitesmoke;
+  font-size: 2rem;
+  font-weight: 600;
+  text-shadow: 2px 2px 4px #000000;
+  letter-spacing: 1px;
+}
