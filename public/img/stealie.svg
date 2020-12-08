@@ -14,19 +14,12 @@
    version="1.1"
    id="svg670"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
-   sodipodi:docname="stealie.svg">
+   sodipodi:docname="stealie.svg"
+   inkscape:export-filename="E:\lucsedirae.github.io\public\img\stealie.png"
+   inkscape:export-xdpi="12.671165"
+   inkscape:export-ydpi="12.671165">
   <defs
-     id="defs664">
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath821">
-      <use
-         x="0"
-         y="0"
-         xlink:href="#g817"
-         id="use823" />
-    </clipPath>
-  </defs>
+     id="defs664" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -35,10 +28,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="400"
+     inkscape:cx="-87.142857"
      inkscape:cy="217.14286"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g819"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-width="2472"
@@ -64,7 +57,7 @@
      id="layer1">
     <g
        id="g819"
-       clip-path="url(#clipPath821)">
+       clip-path="none">
       <g
          inkscape:label="Clip"
          id="g817">
@@ -306,5 +299,12 @@
            style="fill:#53508b;stroke-width:1.27938" />
       </g>
     </g>
+    <use
+       x="0"
+       y="0"
+       xlink:href="#g817"
+       id="use823"
+       width="100%"
+       height="100%" />
   </g>
 </svg>
