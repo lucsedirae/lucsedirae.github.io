@@ -2,7 +2,8 @@
 //* DOM anchors
 const contactBtn = $("#contact-btn");
 const aboutBtn = $("#about-btn");
-
+const portfolioBtn = $("#portfolio-btn");
+const wordsBtn = $("#words-btn");
 
 //* --Initializes page to prevent irregular loading in browser--
 $(document).ready(() => {
@@ -12,5 +13,11 @@ $(document).ready(() => {
   });
   aboutBtn.on("click", () => {
     window.location.replace("/about");
+  });
+  portfolioBtn.on("click", () => {
+    window.location.replace("/portfolio");
+  });
+  wordsBtn.on("click", () => {
+    window.location.replace("/words");
   });
 });
