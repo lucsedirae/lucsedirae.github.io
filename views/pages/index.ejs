@@ -5,15 +5,15 @@
   </head>
 
   <body class="container-fluid">
-    <header>
+    <!-- <header> -->
       <!--! Removed header ejs insert to test sidebar.ejs as an alternative nav layout -->
-    </header>
+    <!-- </header> -->
 
     <main>
       <!-- * Wrapper Row -->
       <div class="row">
         <!--* Sidebar column -->
-        <div class="col-2 col-1 fixed-top one" id="sidebar">
+        <div class="col-md-2 col-sm-3 fixed-top" id="sidebar">
           <%- include('../partials/sidebar.ejs'); %>
         </div>
 
@@ -36,7 +36,7 @@
                   custom tailored to your needs.
                 </p>
                 <hr />
-                <button type="button" class="btn btn-light" id="portfolio-btn">
+                <button type="button" class="btn btn-light portfolio-btn">
                   Visit Portfolio
                 </button>
               </div>
@@ -63,7 +63,7 @@
                   multiple platforms.
                 </p>
                 <hr />
-                <button type="button" class="btn btn-light" id="words-btn">
+                <button type="button" class="btn btn-light words-btn">
                   Read Articles
                 </button>
               </div>
@@ -85,7 +85,7 @@
                   developer toolkit.
                 </p>
                 <hr />
-                <button type="button" class="btn btn-light" id="about-btn">
+                <button type="button" class="btn btn-light about-btn">
                   About Me
                 </button>
               </div>
@@ -110,16 +110,14 @@
                   Feel free to contact me.
                 </p>
                 <hr />
-                <button type="button" class="btn btn-light" id="contact-btn">
+                <button type="button" class="btn btn-light contact-btn">
                   Contact
                 </button>
               </div>
             </div>
           </div>
 
-          <footer>
-            <%- include('../partials/footer'); %>
-          </footer>
+     
           <!-- * Close wrapper col -->
         </div>
         <!-- * Close wrapper row -->

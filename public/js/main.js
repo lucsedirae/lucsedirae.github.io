@@ -1,9 +1,10 @@
 //* --Global variables--
 //* DOM anchors
-const contactBtn = $("#contact-btn");
-const aboutBtn = $("#about-btn");
-const portfolioBtn = $("#portfolio-btn");
-const wordsBtn = $("#words-btn");
+const contactBtn = $(".contact-btn");
+const aboutBtn = $(".about-btn");
+const portfolioBtn = $(".portfolio-btn");
+const wordsBtn = $(".words-btn");
+const homeBtn = $(".home-btn")
 
 //* --Initializes page to prevent irregular loading in browser--
 $(document).ready(() => {
@@ -20,4 +21,7 @@ $(document).ready(() => {
   wordsBtn.on("click", () => {
     window.location.replace("/words");
   });
+  homeBtn.on("click", () => {
+    window.location.replace("/");
+  })
 });

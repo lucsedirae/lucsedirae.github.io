@@ -18,11 +18,11 @@
         </div>
 
         <!-- * Main wrapper col -->
-        <div class="col-9 offset-3 two">
+        <div class="col-9 offset-3 two container-fluid">
           <!-- * Info panel row and col -->
           <div class="row">
             <div class="col info-panel-large container-fluid">
-              <!-- * Row 1 -->
+              <!-- * Header Row-->
               <div class="row">
                 <div class="col">
                   <h2>Portfolio</h2>
@@ -95,15 +95,29 @@
                     </div>
                   </div>
                 </div>
+                <!-- * Card 2 -->
+                <div class="col-3">
+                  <div class="card" style="width: 18rem;">
+                    <a href="https://fathomless-temple-93521.herokuapp.com/"
+                      ><img
+                        src="/img/portfolio/burger.PNG"
+                        class="card-img-top"
+                        alt="screenshot of burger app"
+                    /></a>
+                    <div class="card-body bg-secondary">
+                      <h5>The Burger App</h5>
+                      <p class="card-text">
+                        This is a simple web app that organizes a collection of your favorite burgers and allows you to sort them by "Intact" or "Devoured". The information is persistent and contained in a SQL database. Hosted by Heroku and JAWSdb.
+                      </p>
+                    </div>
+                  </div>
+                </div>
                 <!-- * Close row 1 -->
               </div>
               <!-- * Close info panel -->
             </div>
           </div>
 
-          <footer>
-            <%- include('../partials/footer'); %>
-          </footer>
           <!-- * Close wrapper col -->
         </div>
         <!-- * Close wrapper row -->
