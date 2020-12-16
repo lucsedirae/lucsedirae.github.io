@@ -22,8 +22,6 @@ app.set("view engine", "ejs");
 require("./routes/routes.js")(app);
 
 //* Sync database and log listener message
-//! Removed sequelize until database is needed/migrated to Mongo
-// db.sequelize.sync().then(() => {
   app.listen(PORT, () => {
     console.log(
       "==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser. 🌎 <== ",
@@ -31,4 +29,3 @@ require("./routes/routes.js")(app);
       PORT
     );
   });
-// });

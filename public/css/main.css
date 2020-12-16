@@ -21,8 +21,6 @@ body {
 }
 
 .footer {
-  /* position: sticky; */
-  /* bottom: 0; */
   color: silver;
   margin-top: 2rem;
 }
@@ -82,8 +80,27 @@ body {
   margin-right: 3rem;
 }
 
+.portfolio-gh-tile {
+  height: 2rem;
+}
+
+.sidebar {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding: 20px 5px 0px 10px;
+}
+
+.sidefoot {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px 15px;
+}
+
 .text-highlight {
-  /* color: silver; */
   color: #d0f8ff;
   text-shadow: 0 0 5px #8bfa0d, 0 0 10px #30dcfa, 0 0 20px #2cb2ca,
     0 0 30px #3d4550, 0 0 40px #000000;
@@ -131,13 +148,6 @@ body {
   font-weight: 600;
   text-shadow: 2px 2px 4px #000000;
   letter-spacing: 1px;
-}
-
-#sidebar {
-  background-color: rgba(0, 0, 0, 0.7);
-  height: 100vh;
-  /* padding-left: 2rem;
-  padding-right: 2rem; */
 }
 
 #stack-row {
