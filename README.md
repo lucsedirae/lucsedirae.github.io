@@ -62,4 +62,4 @@ No testing libraries deployed
 ## Questions
 Have questions on this application? Contact me via:<br>
 Email: jondeavers@gmail.com <br>
-My GitHub Profile: LucSedirae <br>   
+My GitHub Profile: [LucSedirae](https://github.com/lucsedirae) <br>   
