@@ -32,8 +32,7 @@ Profile and portfolio site for web developer Jon Deavers
 
   *Demo of MUI layout* 
 
-![layout example screenshot](public/img/mui.png
-)
+![layout example screenshot](public/img/mui.PNG)
 
 * Animate On Scroll - https://michalsnik.github.io/aos/ - AOS is a javascript package that can be imported through React and used to easily create animation effects with a single prop after initialization.
   
@@ -41,7 +40,7 @@ Profile and portfolio site for web developer Jon Deavers
 
 * Formspree - https://formspree.io/ - Formspree allows you to handle forms for free without a dedicated backend. Using MUI components and jsx, I created a form that will send an email to my email address upon user submit.
 
-![screenshot of contact form](public/img/form.png)
+![screenshot of contact form](public/img/form.PNG)
 
 ## Installation
 `npm i` from root directory
