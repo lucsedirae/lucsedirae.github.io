@@ -48,7 +48,7 @@ const Animation = () => {
           <span style={{ color: "gold" }}>+</span> MongoDB back-end...
         </h1>
       </div>
-      <div data-aos="flip-up" style={{ height: "100vh", marginLeft: "15rem" }}>
+      <div data-aos="flip-up" style={{ height: "100vh", marginLeft: "12rem" }}>
         <h2>sprinkle in</h2>
         <h1>
           a healthy dose of <span style={{ color: "blueviolet" }}>CSS</span>{" "}
@@ -56,7 +56,7 @@ const Animation = () => {
           ...
         </h1>
       </div>
-      <div data-aos="flip-left" style={{ height: "80vh", marginLeft: "20rem" }}>
+      <div data-aos="flip-left" style={{ height: "80vh", marginLeft: "2rem" }}>
         <h2>and you've got a</h2>
         <h1>
           <span style={{ color: "green" }}>full</span>-

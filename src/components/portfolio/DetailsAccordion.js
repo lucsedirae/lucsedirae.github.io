@@ -30,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
     color: "silver",
   },
   icons: {
-    color: "black",
+    color: "silver",
     marginRight: "1rem",
   },
 }));
