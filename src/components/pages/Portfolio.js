@@ -1,5 +1,5 @@
 //* Dependencies
-import React, { useEffect } from "react";
+import React from "react";
 
 //* Material-UI components, hooks, and icon
 import Box from "@material-ui/core/Box";

@@ -84,7 +84,6 @@ function DetailsAccordian(props) {
               style={{ textDecoration: "none" }}
               href={props.deployedLink}
               target="_blank"
-              style={{ color: "silver" }}
             >
               {" "}
               Deployed Application
@@ -103,7 +102,6 @@ function DetailsAccordian(props) {
               style={{ textDecoration: "none" }}
               href={props.gitHubLink}
               target="_blank"
-              style={{ color: "silver" }}
             >
               {" "}
               GitHub Repo

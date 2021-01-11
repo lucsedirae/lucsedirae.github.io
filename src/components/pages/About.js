@@ -3,7 +3,6 @@ import React from "react";
 
 //* Material-UI components, hooks, and icon
 import Box from "@material-ui/core/Box";
-import Card from "@material-ui/core/Card"
 import Container from "@material-ui/core/Container";
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
@@ -76,6 +75,7 @@ const About = () => {
               <img
                 src="/img/stealie.png"
                 style={{ padding: "1rem", width: "2rem" }}
+                alt="Steal your face"
               />
             </Typography>
 
