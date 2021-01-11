@@ -1,0 +1,66 @@
+
+[
+    {
+        "id": "0",
+        "title": "How to use the Inquirer Node package",
+        "datePublished":"11/15/2020",
+        "host": "Edpresso",
+        "logo": "fas fa-pencil-alt fa-3x",
+        "firstLine": "Inquirer is an NPM package that provides an easy way to capture user input in your Node.js command line interface applications. It provides several methods for asking questions and returning answers from the user that can be accessed by a .then promise function.",
+        "url": "https://www.educative.io/edpresso/how-to-use-the-inquirer-node-package"    
+    },
+  {
+    "id": "1",
+    "title": "What is an API?",
+    "datePublished":"11/5/2020",
+    "host": "Dev.to",
+    "logo": "fab fa-dev fa-4x",
+    "firstLine": "API stands for 'application programming interface'. APIs allow one application to 'talk-to' another, allowing for the transfer of stored data or instructions. API's are everywhere in your daily life; from the embedded",
+    "url": "https://dev.to/lucsedirae/what-is-an-api-29h3"
+  },
+  {
+    "id": "2",
+    "title": "Experimenting with Bootstrap Alternatives",
+    "datePublished":"11/3/2020",
+    "host": "Dev.to",
+    "logo": "fab fa-dev fa-4x",
+    "firstLine": "Currently I am half-way through a 6-month full-stack web development boot camp. Since day one we've been using Bootstrap as an HTML framework. I am not ashamed to admit, I've been in love with it ever since. It makes my",
+    "url": "https://dev.to/lucsedirae/experimenting-with-bootstrap-alternatives-3nkm"
+  },
+  {
+    "id": "3",
+    "title": "Intro to Chrome Dev Tools - Part 1",
+    "datePublished":"10/19/2020",
+    "host": "Dev.to",
+    "logo": "fab fa-dev fa-4x",
+    "firstLine": "Merriam-Webster defines the term 'whip-lash' as 'injury resulting from a sudden sharp whipping movement of the neck and head.' That's how I feel on a regular basis while working my way through a full-stack web",
+    "url": "https://dev.to/lucsedirae/intro-to-chrome-dev-tools-part-1-8ab"
+  },
+  {
+    "id": "4",
+    "title": "Important Things I Learned Working In A Group",
+    "datePublished":"10/2/2020",
+    "host": "Dev.to",
+    "logo": "fab fa-dev fa-4x",
+    "firstLine": "I'm currently a student in a full-stack web development boot camp. We are just about to turn in our first group project and I learned a lot during this process. I learned some handy tricks in JavaScript and CSS, but more",
+    "url": "https://dev.to/lucsedirae/things-i-learned-working-in-a-group-2abo"
+  },
+  {
+    "id": "5",
+    "title": "Keeping A Portfolio Page Current While Learning",
+    "datePublished":"9/23/2020",
+    "host": "Dev.to",
+    "logo": "fab fa-dev fa-4x",
+    "firstLine": "As a new developer, still deeply in the learning process, there are so many interesting tools introduced each day. I am currently enrolled in a bootcamp and loving it. Sometimes the curriculum is like trying to drink water from a",
+    "url": "https://dev.to/lucsedirae/keeping-a-portfolio-page-current-while-learning-1bcn"
+  },
+  {
+    "id": "6",
+    "title": "Overthinking Web Development as a Beginner",
+    "datePublished":"9/8/2020",
+    "host": "Dev.to",
+    "logo": "fab fa-dev fa-4x",
+    "firstLine": "I recently started a full-stack web development boot camp at a local university. After months of poking around YouTube and Google with little-to-no direction and a total lack of foundational understanding, I decided it",
+    "url": "https://dev.to/lucsedirae/overthinking-web-development-as-a-beginner-jp0"
+  }
+]

@@ -8,10 +8,10 @@ import Button from "@material-ui/core/Button"
 const Buttons = () => {
     return (
         <ButtonGroup color="primary">
-            <Button>About</Button>
-            <Button>Portfolio</Button>
-            <Button>Words</Button>
-            <Button>Contact</Button>
+            <Button href="/about">About</Button>
+            <Button href="/portfolio">Portfolio</Button>
+            <Button href="/words">Words</Button>
+            <Button href="/contact">Contact</Button>
         </ButtonGroup>
     )
 }

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "name": "Pitch",
+    "pic": "/img/pitch.PNG",
+    "deployedLink": "https://lucsedirae.github.io/deep-cuts/",
+    "alt": "screenshot of music app Pitch",
+    "description": "This app was a group project. It allows music enthusiasts to research and track artists they haven't heard before but want explore their body of work. Pitch offers an array of features drawing from three API's: musicbrainz, bandsintown, and Google's YouTube.",
+    "gitHubLink": "https://github.com/lucsedirae/deep-cuts"
+  },
+  {
+    "id": "2",
+    "name": "Neighbors In Need",
+    "pic": "/img/nin.PNG",
+    "deployedLink": "https://neighbors-in-need.herokuapp.com/",
+    "alt": "Neighbors In Need app screenshot",
+    "description": "This app was a group project and was designed to allow persons experiencing homelessness to find available resources provided by members of the community who can log in and post resource and event information.",
+    "gitHubLink": "https://github.com/lucsedirae/neighbors-in-need"
+  },
+  {
+    "id": "3",
+    "name": "Day Planner App",
+    "pic": "/img/dayplanner.PNG",
+    "deployedLink": "https://lucsedirae.github.io/day-planner/",
+    "alt": "screenshot of a day planner app",
+    "description": "This lightweight Day Planner allows you to store appointments locally and return to the app to retrieve your stored list. It utilizes moment.js to track which hour of the day it is currently and color code the appointment list accordingly. It also accesses the user's location and returns the local weather via openweathermap.org open API.",
+    "gitHubLink": "https://github.com/lucsedirae/day-planner"
+  },
+  {
+    "id": "4",
+    "name": "JavaScript Quiz",
+    "pic": "/img/quiz.PNG",
+    "deployedLink": "https://lucsedirae.github.io/coding-quiz/",
+    "alt": "screenshot of a JavaScript coding quiz app",
+    "description": "This application asks the user a series of questions. Based on the user's answers, questions are marked correct or incorrect and points are awarded or subtracted from a running total. The user will be able to store their name and high scores locally and reference them upon future quiz sessions.",
+    "gitHubLink": "https://github.com/lucsedirae/coding-quiz"
+  },
+  {
+    "id": "5",
+    "name": "Password Generator App",
+    "pic": "/img/password.png",
+    "deployedLink": "https://lucsedirae.github.io/password-generator/",
+    "alt": "screenshot of a password generator app",
+    "description": "This is a random password generator. It allows the user to specify the length of a password and select any of the following types of characters to use; upper case letters, lower case letters, numberic characters, and special characters. It features copy to clipboard functionality as well as a list of links to helpful security focused websites.",
+    "gitHubLink": "https://github.com/lucsedirae/password-generator"
+  },
+  {
+    "id": "6",
+    "name": "Touch of Grey - Weather Dashboard",
+    "pic": "/img/weather.png",
+    "deployedLink": "https://lucsedirae.github.io/weather-dashboard/",
+    "alt": "screenshot of a weather dashboard app",
+    "description": "A Grateful Dead themed weather dashboard. This app allows users to search for a city and display that city's current weather data as well as a 5-day forecast. The list of previously searched cities is persistent and will be saved locally to user's machine allowing for easy reference to prior searches on app load.",
+    "gitHubLink": "https://github.com/lucsedirae/weather-dashboard"
+  }
+]
