@@ -1,5 +1,5 @@
 //* Dependencies
-import React, { Fragment } from "react";
+import React from "react";
 
 //* MUI comps, hooks, icons
 import Container from "@material-ui/core/Container"
