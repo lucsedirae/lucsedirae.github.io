@@ -3,11 +3,12 @@ import React, { Fragment } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 //* Components
+import About from "./components/pages/About";
+import Contact from "./components/pages/Contact";
 import Home from "./components/pages/Home";
 import Portfolio from "./components/pages/Portfolio";
-import About from "./components/pages/About";
+import Questionnaire from "./components/pages/Questionnaire"
 import Words from "./components/pages/Words";
-import Contact from "./components/pages/Contact";
 
 import NavDrawer from "./components/layout/NavDrawer";
 
@@ -26,6 +27,7 @@ function App() {
             <Route exact path="/portfolio" component={Portfolio} />
             <Route exact path="/words" component={Words} />
             <Route exact path="/contact" component={Contact} />
+            <Route exact path="/questionnaire" component={Questionnaire} />
           </Switch>
         </div>
       </Fragment>
