@@ -6,6 +6,7 @@ import Container from "@material-ui/core/Container"
 
 
 const Questionnaire = () => {
+    document.getElementById("root")
     
   return (
     <Container style={{padding: "2rem"}}>
