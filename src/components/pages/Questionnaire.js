@@ -31,7 +31,7 @@ const Questionnaire = () => {
   return (
     <Container style={{ padding: "2rem" }}>
       <Paper className={classes.root}>
-        <FormControl name="questionnaire" method="post">
+        <form name="questionnaire" method="post">
           <Grid container>
             <Grid item xs={12} md={6} align="center">
               <input type="hidden" name="form-name" value="questionnaire" />
@@ -132,7 +132,7 @@ const Questionnaire = () => {
               </p>
             </Grid>
           </Grid>
-        </FormControl>
+        </form>
       </Paper>
     </Container>
   );
