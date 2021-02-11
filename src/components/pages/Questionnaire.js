@@ -2,52 +2,27 @@
 import React from "react";
 
 //* MUI comps, hooks, icons
-import FormControl from "@material-ui/core/FormControl";
 import Container from "@material-ui/core/Container";
 import Grid from "@material-ui/core/Grid";
-import Paper from "@material-ui/core/Paper";
-import TextField from "@material-ui/core/TextField";
 import Typography from "@material-ui/core/Typography";
-import { makeStyles } from "@material-ui/core/styles";
 
-const useStyles = makeStyles({
-  root: {
-    background: "rgb(160,160,160)",
-    margin: "1rem",
-    boxShadow: "3px 3px rgb(20, 20 , 20)",
-    color: "white",
-    marginTop: "2rem",
-  },
-  media: {
-    height: 0,
-    paddingTop: "56.25%",
-  },
-});
 
 //* Exported component
 const Questionnaire = () => {
-  const classes = useStyles();
 
   return (
     <Container style={{ padding: "2rem" }}>
-      <Paper className={classes.root}>
         <form name="questionnaire" method="post">
           <Grid container>
             <Grid item xs={12} md={6} align="center">
               <input type="hidden" name="form-name" value="questionnaire" />
               <Typography variant="h6">Contact Information</Typography>
-              <TextField
-                label="Your Name:"
-                id="standard-basic"
-                type="text"
-                name="name"
-              />
-              {/* <p>
+              <p>
                 <label>
                   Your Name: <br />
                   <input type="text" name="name" />
                 </label>
-              </p> */}
+              </p>
               <p>
                 <label>
                   Your Email:
@@ -133,7 +108,6 @@ const Questionnaire = () => {
             </Grid>
           </Grid>
         </form>
-      </Paper>
     </Container>
   );
 };
